@@ -13,6 +13,8 @@ const FlexWrapper = styled.div`
 	align-items: ${(props) => props.alignItems};
 	gap: ${(props) => props.gap};
 	flex-direction: ${(props) => (props.flexDirection ? props.flexDirection : 'column')};
+	padding: ${(props) => props.padding};
+	margin: ${(props) => props.margin};
 `;
 
 export default Flex;

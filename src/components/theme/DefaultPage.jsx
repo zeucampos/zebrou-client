@@ -20,7 +20,10 @@ const DefaultPage = (props) => {
 				</div>
 			</div>
 			<div className="container">
-				<h3 className="page-title">{props.title}</h3>
+				<Flex gap="8px" margin="16px 0">
+					<h3 className="page-title">{props.title}</h3>
+					<h4 className="page-subtitle">{props.subtitle}</h4>
+				</Flex>
 			</div>
 		</DefaultPageWrapper>
 	);
@@ -49,8 +52,9 @@ const DefaultPageWrapper = styled.div`
 		border-bottom: 1px solid #e7e7e7;
 	}
 
-	.page-title {
-		color: black;
+	.page-title,
+	.page-subtitle {
+		text-align: center;
 	}
 `;
 

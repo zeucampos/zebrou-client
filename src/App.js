@@ -1,6 +1,6 @@
 import './App.css';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import HomePage from './pages/home/HomeView';
+import HomePage from './pages/home/HomePage';
 
 function App() {
 	return (
