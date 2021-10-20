@@ -1,3 +1,12 @@
+:root {
+  --primary: blue;
+  --text: #575757;
+}
+
+body {
+  color: var(--text);
+}
+
 .App {
   text-align: center;
 }
@@ -33,8 +42,24 @@ img {
   max-height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 { 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
+}
+
+input,
+textarea,
+select {
+  border: 2px solid black;
+  background: white;
+  border-radius: 16px;
+  height: 3em;
+  padding: 8px;
 }
 
 @keyframes App-logo-spin {
